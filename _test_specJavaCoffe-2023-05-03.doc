@@ -1,0 +1,239 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><title>testspec JavaCoffe</title>
+<link type="text/css" rel="stylesheet" href="http://localhost/TestLink/gui/themes/default/css/tl_documents.css" />
+<style type="text/css" media="print">.notprintable { display:none;}</style>
+</head>
+<body>
+<div>
+<div style="float:right;">TestLink Community [configure $tlCfg-&gt;document_generator-&gt;company_name]</div>
+<div>&nbsp;</div><hr />
+<p style="text-align: center;"><img alt="TestLink logo" title="configure using $tlCfg->document_generator->company_logo"  width=231 height=56 src="http://localhost/TestLink/gui/themes/default/images/tl-logo-transparent-25.png" /></p></div>
+<div class="doc_title"><p>Test Specification</p></div>
+<div class="doc_title" style="text-align:left;margin: auto;"><p>Test Project: JavaCoffe</p></div>
+<div class="summary"><p id="printedby">Printed by TestLink on 03/05/2023</p></div>
+<div class="pagefooter" id="copyright">2022 &copy; TestLink Community</div>
+<h1 class="general" style="page-break-before: always">Table Of Contents</h1><div class="toc"><p style="padding-left: 20px;"><b><a href="#toc_1">1.HomePage Menu</a></b></p>
+<p style="padding-left: 45px;"><a href="#toc_tc28">JC-4: Weryfikacja górnego menu na stronie głównej</a></p><br/><p style="padding-left: 20px;"><b><a href="#toc_2">2.Searchbar</a></b></p>
+<p style="padding-left: 45px;"><a href="#toc_tc13">JC-2: Weryfikacja wyszukiwarki na stronie głównej</a></p><br/><p style="padding-left: 20px;"><b><a href="#toc_3">3.AddToCart</a></b></p>
+<p style="padding-left: 45px;"><a href="#toc_tc6">JC-1: Dodawanie produktu do koszyka</a></p></div><h1 class="doclevel" >Scope</h1>
+<div class="txtlevel"><p>Test działania menu gł&oacute;wnego, wyszukiwarki, dodawania produktu do koszyka sklepu&nbsp;JavaCoffe</p></div>
+ <br/><a name='toc_1'></a>
+<h1 class='doclevel'>1.Test Suite : HomePage Menu</h1>
+<div><p>Sprawdzenie działania g&oacute;rnego menu na stonie gł&oacute;wnej</p>
+</div><a name="toc_tc28"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case JC-4: Weryfikacja górnego menu na stronie głównej&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>Dostęp do internetu.</p>
+
+<p>Uruchomiona przeglądarka chrome.</p>
+
+<p>Uruchomiona strona&nbsp;https://javacoffee.pl/&nbsp;</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Najeżdżamy na zakładkę KAWA</p>
+</td><td><p>1. Wyskakuje pop-up z podmenu</p>
+
+<p>2. Tekst zakładki menu Kawa zmienia kolor na fioletowy</p>
+</td></tr><tr><td width="5">2</td><td><p>Klikamy w menu na zakładkę Kawa</p>
+</td><td><p>1. Zostaliśmy przekierowani na podstronę&nbsp;https://javacoffee.pl/collections/kawa</p>
+
+<p>2. Tekst zakładki menu Kawa zmienia kolor na fioletowy</p>
+
+<p>3. Wyświetlają się &nbsp;produkty z kategori Kawa</p>
+</td></tr><tr><td width="5">3</td><td><p>Najedżamy na zakładkę SUBSKRYPCJA</p>
+</td><td><p>1. Wyskakuje pop-up z podmenu</p>
+
+<p>2. Tekst zakładki menu SUBSKRYPCJA&nbsp;zmienia kolor na fioletowy</p>
+</td></tr><tr><td width="5">4</td><td><p>Klikamy w menu SUBSKRYPCJA</p>
+</td><td><p>1. Zostaliśmy przekierowani na podstronę&nbsp;https://javacoffee.pl/collections/subskrypcje-kawowe</p>
+
+<p>2. Tekst zakładki menu SUBSKRYPCJA&nbsp;zmienia kolor na fioletowy</p>
+
+<p>3. Wyświetlają się &nbsp;produkty z kategori SUBSKRYPCJA</p>
+</td></tr><tr><td width="5">5</td><td><p>Najeżdżamy na&nbsp;zakładkę NAPOJE ROŚLINNE</p>
+</td><td><p>1. Wyskakuje pop-up z podmenu</p>
+
+<p>2. Tekst zakładki menu NAPOJE ROŚLINNE&nbsp;zmienia kolor na fioletowy<br />
+&nbsp;</p>
+</td></tr><tr><td width="5">6</td><td><p>Klikamy w menu NAPOJE ROŚLINNE</p>
+</td><td><p>1. Zostaliśmy przekierowani na podstronę&nbsp;https://javacoffee.pl/collections/napoje-roslinne</p>
+
+<p>2. Tekst zakładki menu Kawa zmienia kolor na fioletowy</p>
+
+<p>3. Wyświetlają się &nbsp;produkty z kategori Kawa<br />
+&nbsp;</p>
+</td></tr><tr><td width="5">7</td><td><p>Najeżdżamy na&nbsp;zakładkę BACANHA</p>
+</td><td><p>1. Wyskakuje pop-up z podmenu</p>
+
+<p>2. Tekst zakładki menu BACANHA&nbsp;zmienia kolor na fioletowy</p>
+</td></tr><tr><td width="5">8</td><td><p>Klikamy w zakładkę BACANHA</p>
+</td><td><p>1. Zostaliśmy przekierowani na podstronę&nbsp;https://javacoffee.pl/collections/syropy-bacanha</p>
+
+<p>2. Tekst zakładki menu BACANHA&nbsp;zmienia kolor na fioletowy</p>
+
+<p>3. Wyświetlają się &nbsp;produkty z kategori BACANHA</p>
+</td></tr><tr><td width="5">9</td><td><p>Najeżdżamy na zakładkę NIE KAWA</p>
+</td><td><p>1. Wyskakuje pop-up z podmenu</p>
+
+<p>2. Tekst zakładki menu NIE KAWA&nbsp;zmienia kolor na fioletowy</p>
+</td></tr><tr><td width="5">10</td><td><p>Klikamy w zakładkę NIE KAWA</p>
+</td><td><p>1. Zostaliśmy przekierowani na podstronę&nbsp;https://javacoffee.pl/collections/herbata</p>
+
+<p>2. Tekst zakładki menu NIE KAWA&nbsp;zmienia kolor na fioletowy</p>
+
+<p>3. Wyświetlają się &nbsp;produkty z kategori HERBATA</p>
+</td></tr><tr><td width="5">11</td><td><p>Najeżdżamy na zakładkę NASZE MARKI</p>
+</td><td><p>1. Wyskakuje pop-up z podmenu</p>
+
+<p>2. Tekst zakładki menu NASZE MARKI&nbsp;zmienia kolor na fioletowy<br />
+&nbsp;</p>
+</td></tr><tr><td width="5">12</td><td><p>Klikamy w zakładkę NASZE MARKI</p>
+</td><td><p>1. Zostaliśmy przekierowani na podstronę&nbsp;https://javacoffee.pl/collections/syropy-bacanha</p>
+
+<p>2. Tekst zakładki menu NASZE MARKI&nbsp;zmienia kolor na fioletowy</p>
+
+<p>3. Wyświetlają się &nbsp;produkty z kategori Syropy BACANHA</p>
+</td></tr><tr><td width="5">13</td><td><p>Najeżdżamy na zakładkę SZKOLENIA</p>
+</td><td><p>1. Wyskakuje pop-up z podmenu</p>
+
+<p>2. Tekst zakładki menu SZKOLENIA&nbsp;zmienia kolor na fioletowy<br />
+&nbsp;</p>
+</td></tr><tr><td width="5">14</td><td><p>Klikamy w zakładkę SZKOLENIA</p>
+</td><td><p>1. Zostaliśmy przekierowani na podstronę&nbsp;https://javacoffee.pl/collections/szkolenia</p>
+
+<p>2. Tekst zakładki menu SZKOLENIA&nbsp;zmienia kolor na fioletowy</p>
+
+<p>3. Wyświetlają się&nbsp; zawartość menu SZKOLENIA</p>
+</td></tr><tr><td width="5">15</td><td><p>Najeżdżamy na zakładkę OUTLET<br />
+&nbsp;</p>
+</td><td><p>1. Wyskakuje pop-up z podmenu</p>
+
+<p>2. Tekst zakładki menu OUTLET&nbsp;zmienia kolor na fioletowy<br />
+&nbsp;</p>
+</td></tr><tr><td width="5">16</td><td><p>Klikamy w zakładkę OUTLET</p>
+</td><td><p>1. Zostaliśmy przekierowani na podstronę&nbsp;https://javacoffee.pl/collections/outlet</p>
+
+<p>2. Tekst zakładki menu OUTLET&nbsp;zmienia kolor na fioletowy</p>
+
+<p>3. Wyświetlają się &nbsp;produkty z kategori OUTLET<br />
+&nbsp;</p>
+</td></tr><tr><td width="5">17</td><td><p>Najeżdżamy na zakładkę O NAS</p>
+</td><td><p>1. Wyskakuje pop-up z podmenu</p>
+
+<p>2. Tekst zakładki menu O NAS&nbsp;zmienia kolor na fioletowy</p>
+</td></tr><tr><td width="5">18</td><td><p>Klikamy w zakładkę O NAS</p>
+</td><td><p>1. Zostaliśmy przekierowani na podstronę&nbsp;https://javacoffee.pl/pages/about-us</p>
+
+<p>2. Tekst zakładki menu O NAS&nbsp;zmienia kolor na fioletowy</p>
+
+<p>3. Wyświetlają się informację z zakładki ONAS</p>
+</td></tr><tr><td width="5">19</td><td><p>Najeżdżamy na zakładkę BLOG NEWS</p>
+</td><td><p>1. Wyskakuje pop-up z podmenu</p>
+
+<p>2. Tekst zakładki menu BLOG NEWS&nbsp;zmienia kolor na fioletowy</p>
+</td></tr><tr><td width="5">20</td><td><p>Klikamy w zakładkę BLOG NEWS</p>
+</td><td><p>1. Zostaliśmy przekierowani na podstronę&nbsp;https://javacoffee.pl/blogs/news</p>
+
+<p>2. Tekst zakładki menu BLOG NEWS&nbsp;zmienia kolor na fioletowy</p>
+
+<p>3. Wyświetlają się informację z Bloga</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name='toc_2'></a>
+<h1 class='doclevel'>2.Test Suite : Searchbar</h1>
+<div><p>Weryfikacja działania wyszukiwarki z poziomu strony gł&oacute;wnej</p>
+</div><a name="toc_tc13"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case JC-2: Weryfikacja wyszukiwarki na stronie głównej&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>Dostęp do internetu.</p>
+
+<p>Uruchomiona przeglądarka chrome</p>
+
+<p>Uruchomiona strona&nbsp;www.javacoffe.pl</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>1.Klikamy w ikone lupki</p>
+</td><td><p>1.Wyświetliła się pop-up z tytułem &quot;Szukaj w naszym sklepie&quot; oraz okienkiem do wpisania wyszukiwanej frazy&nbsp;</p>
+</td></tr><tr><td width="5">2</td><td><p>2.Wpisujemy w polę wyszukiwania frazę KAWA i klikamy klawisz ENTER</p>
+</td><td><p>1.Zostaliśmy przekierowani na stronę&nbsp;https://javacoffee.pl/search?type=product&amp;q=kawa*</p>
+
+<p>2.Widoczny jest nagł&oacute;wek Szukaj</p>
+
+<p>3.Wyświetliły się produkty&nbsp;</p>
+</td></tr><tr><td width="5">3</td><td><p>Klikamy w ikone lupki<br />
+&nbsp;</p>
+</td><td><p>1.Wyświetlił się pop-up z tytułem &quot;Szukaj w naszym sklepie&quot;</p>
+
+<p>2.W okienku do wpisywania znajduje się fraza KAWA*</p>
+</td></tr><tr><td width="5">4</td><td><p>Usuwamy frazę wpisana w oknie do wpisywania</p>
+</td><td><p>1. Pole wyszukiwania nie zawiera frazy</p>
+
+<p>2. W oknie do wpisywania pojawił się napis Czego szukasz?</p>
+</td></tr><tr><td width="5">5</td><td><p>Wpisujemy w oknie do wpisywania&nbsp;frazę 000000</p>
+</td><td><p>1. Wyświetlił się pop-up z informacją Brak wynik&oacute;w</p>
+</td></tr><tr><td width="5">6</td><td><p>Usuwamy frazę wpisanę w oknie do wyszukiwania i naciskamy ENTER</p>
+</td><td><p>1.Zostaliśmy przekierowani na stronę&nbsp;https://javacoffee.pl/search?type=product&amp;q=*</p>
+
+<p>2.Wyświetliły się produkty z wszytkich kategori</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">High</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name='toc_3'></a>
+<h1 class='doclevel'>3.Test Suite : AddToCart</h1>
+<div><p>Weryfikacja poprawnośći działania dodawania produkt&oacute;w do koszyka</p>
+</div><a name="toc_tc6"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case JC-1: Dodawanie produktu do koszyka&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>Dostęp do internetu.</p>
+
+<p>Uruchomiona przeglądarka chrome.</p>
+
+<p>Musimy mieć otwartą stronę www.javacoffe.pl</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>1.Kliknij w zakładkę KAWA<br />
+<br />
+&nbsp;</p>
+</td><td><p>1.Zostaliśmy przekierowani na stronę&nbsp;https://javacoffee.pl/collections/kawa</p>
+</td></tr><tr><td width="5">2</td><td><p>2.Klikamy w pierwszy produkt</p>
+</td><td><p>1.Zostaliśmy przekierowani na stronę produktu<br />
+2.Widoczna jest strona produktu&nbsp;<br />
+3.Widoczne są takie elementy jak nazwa produktu, cena,wybierz rodzaj,&nbsp;gramatury, spos&oacute;b&nbsp;mielenia, ilość, klawisz dodaj do koszyka, opis produktu</p>
+</td></tr><tr><td width="5">3</td><td><p>W zakładce &quot;Wybierz Rodzaj&quot; klikamy w rozwijaną listę i wybieramy &quot;espresso&quot;</p>
+</td><td><p>1. Na liście rozwijanej wybrane zostało espresso&nbsp;</p>
+</td></tr><tr><td width="5">4</td><td><p>W zakładce &quot;Gramatura&quot; klikamy w rozwijaną&nbsp;listę i wybieramy &quot;250g&quot;</p>
+</td><td><p>1.Na liście rozwijanej wybrane zostało 250g</p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td width="5">5</td><td><p>W zakładce &quot;Spos&oacute;b mielenia&quot; klikamy w rozwijaną listę&nbsp;</p>
+</td><td><p>1.Wyświetliła się lista wyboru z następującymi pozycjami:</p>
+
+<p>ziarnio</p>
+
+<p>drobne mielenie(espresso)</p>
+
+<p>średnio drobne mielenie(kawiarka)</p>
+
+<p>średnie mielenie(drip mały/aeropres/&quot;zalewajka&quot;)</p>
+
+<p>średni grube(duży drip/frenchpress)</p>
+
+<p>grube mielenie(moccamaster/cold brew)</p>
+</td></tr><tr><td width="5">6</td><td><p>W zakładce &quot;Spos&oacute;b mielenia&quot; wybieramy &quot;drobne mielenie(espresso)</p>
+</td><td><p>1.Na Liście rozwijanej zostało wybrane &quot;drobne mielenie(espresso)&quot;</p>
+</td></tr><tr><td width="5">7</td><td><p>Klikamy w klawisz &quot;Dodaj do koszyka&quot;</p>
+</td><td><p>1.Produkt zostanie dodany do koszyka</p>
+
+<p>2.Wyskoczy pop-up z informację co znajduje się w koszyku</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">High</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+
+</body>
+</html>
